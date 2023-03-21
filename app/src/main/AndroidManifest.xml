@@ -12,6 +12,24 @@
         android:theme="@style/Theme.SportsQuiz"
         tools:targetApi="31">
         <activity
+            android:name=".basquetbol"
+            android:exported="false" />
+        <activity
+            android:name=".f1"
+            android:exported="false" />
+        <activity
+            android:name=".beisbol"
+            android:exported="false" />
+        <activity
+            android:name=".americano"
+            android:exported="false" />
+        <activity
+            android:name=".box"
+            android:exported="false" />
+        <activity
+            android:name=".futbol"
+            android:exported="false" />
+        <activity
             android:name=".Menu"
             android:exported="false" />
         <activity

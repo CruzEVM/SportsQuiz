@@ -1,9 +1,187 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Menu">
+    tools:context=".Menu"
+    android:background="@color/white">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/principal"
+        android:text="Deportes"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="65dp"
+        android:textStyle="bold"/>
+
+  <ImageButton
+      android:id="@+id/ibfutbol"
+      android:layout_width="150dp"
+      android:layout_height="150dp"
+      android:layout_below="@+id/header_title"
+      android:layout_alignParentStart="true"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="20dp"
+      app:srcCompat="@drawable/futbol"
+      android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/tvfutbol"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Futbol"
+        android:layout_below="@+id/ibfutbol"
+        android:layout_marginStart="20dp"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+  <ImageButton
+      android:id="@+id/ibbox"
+      android:layout_width="150dp"
+      android:layout_height="150dp"
+      android:layout_below="@+id/header_title"
+      android:layout_alignParentEnd="true"
+      android:layout_marginStart="71dp"
+      android:layout_marginTop="20dp"
+      android:layout_marginEnd="20dp"
+      android:layout_toEndOf="@+id/ibfutbol"
+      android:background="@color/white"
+      app:srcCompat="@drawable/box" />
+
+    <TextView
+        android:id="@+id/tvbox"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ibbox"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Boxeo"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+  <ImageButton
+      android:id="@+id/ibamericano"
+      android:layout_width="150dp"
+      android:layout_height="150dp"
+      android:layout_below="@+id/tvfutbol"
+      android:layout_alignParentStart="true"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="30dp"
+      android:src="@drawable/americano"
+      android:background="@color/white"/>
+
+  <TextView
+      android:id="@+id/tvamericano"
+      android:layout_width="150dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/ibamericano"
+      android:layout_alignParentStart="true"
+      android:layout_marginStart="19dp"
+      android:text="Futbol"
+      android:textAlignment="center"
+      android:textColor="@color/black"
+      android:textSize="30dp"
+      android:textStyle="bold" />
+
+  <TextView
+      android:id="@+id/tvameicano1"
+      android:layout_width="150dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/tvamericano"
+      android:layout_alignParentStart="true"
+      android:layout_marginStart="20dp"
+      android:text="Americano"
+      android:textAlignment="center"
+      android:textColor="@color/black"
+      android:textSize="30dp"
+      android:textStyle="bold" />
+
+  <ImageButton
+      android:id="@+id/ibbeisbol"
+      android:layout_width="150dp"
+      android:layout_height="150dp"
+      android:layout_below="@+id/tvbox"
+      android:layout_alignParentEnd="true"
+      android:layout_marginStart="71dp"
+      android:layout_marginTop="30dp"
+      android:layout_marginEnd="20dp"
+      android:layout_toEndOf="@+id/ibamericano"
+      android:background="@color/white"
+      android:src="@drawable/beisbol" />
+
+  <TextView
+      android:id="@+id/tvbeisbol"
+      android:layout_width="150dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/ibbeisbol"
+      android:layout_alignParentEnd="true"
+      android:layout_marginStart="19dp"
+      android:layout_marginEnd="20dp"
+      android:layout_marginTop="20dp"
+      android:text="Beisbol"
+      android:textAlignment="center"
+      android:textColor="@color/black"
+      android:textSize="30dp"
+      android:textStyle="bold" />
+
+  <ImageButton
+      android:id="@+id/ibf1"
+      android:layout_width="150dp"
+      android:layout_height="150dp"
+      android:layout_below="@+id/tvameicano1"
+      android:layout_alignParentStart="true"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="30dp"
+      android:src="@drawable/f1"
+      android:background="@color/white"/>
+
+  <TextView
+      android:id="@+id/tvf1"
+      android:layout_width="150dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/ibf1"
+      android:layout_alignParentStart="true"
+      android:layout_marginStart="20dp"
+      android:text="Formula 1"
+      android:textAlignment="center"
+      android:textColor="@color/black"
+      android:textSize="30dp"
+      android:textStyle="bold" />
+
+  <ImageButton
+      android:id="@+id/ibbasquebol"
+      android:layout_width="150dp"
+      android:layout_height="150dp"
+      android:layout_below="@+id/tvbeisbol"
+      android:layout_alignParentEnd="true"
+      android:layout_marginStart="71dp"
+      android:layout_marginTop="50dp"
+      android:layout_marginEnd="20dp"
+      android:layout_toEndOf="@+id/ibf1"
+      android:background="@color/white"
+      android:src="@drawable/basquelbol" />
+
+  <TextView
+      android:id="@+id/tvbasquebol"
+      android:layout_width="160dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/ibbasquebol"
+      android:layout_alignParentEnd="true"
+      android:layout_marginStart="19dp"
+      android:layout_marginEnd="20dp"
+      android:text="Basquetbol"
+      android:textAlignment="center"
+      android:textColor="@color/black"
+      android:textSize="30dp"
+      android:textStyle="bold" />
+
+</RelativeLayout>

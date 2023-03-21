@@ -9,5 +9,10 @@
     <color name="white">#FFFFFFFF</color>
     <color name="principal">#DC3545</color>
     <color name="secundario">#4282A6</color>
-    <color name="naranja">#F88A31</color>
+    <color name="americano">#F88A31</color>
+    <color name="futbol">#A1BB3B</color>
+    <color name="box">#EAD546</color>
+    <color name="beisbol">#0DAEB9</color>
+    <color name="f1">#03838C</color>
+    <color name="basquetbol">#03838C</color>
 </resources>
