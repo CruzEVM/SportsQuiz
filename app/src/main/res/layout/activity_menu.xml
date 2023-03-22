@@ -15,7 +15,7 @@
         android:text="Deportes"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="65dp"
+        android:textSize="50dp"
         android:textStyle="bold"/>
 
   <ImageButton
