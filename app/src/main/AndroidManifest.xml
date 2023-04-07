@@ -12,10 +12,7 @@
         android:theme="@style/Theme.SportsQuiz"
         tools:targetApi="31">
         <activity
-            android:name=".incorrecto"
-            android:exported="false" />
-        <activity
-            android:name=".correcto"
+            android:name=".Resultados"
             android:exported="false" />
         <activity
             android:name=".basquetbol"

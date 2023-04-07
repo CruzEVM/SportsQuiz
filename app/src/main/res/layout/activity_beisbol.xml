@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".beisbol"
+    android:orientation="vertical"
     android:background="@color/white">
 
     <TextView
@@ -17,5 +18,58 @@
         android:textColor="@color/white"
         android:textSize="50dp"
         android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tvpregunta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header_title"
+        android:layout_marginTop="100dp"
+        android:text="¿MEJOR JUGADOR DEL FUTBOL CLUB BARCELONA?"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btopc1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvpregunta"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor="@color/black"
+        app:cornerRadius="25dp"
+        android:textColor="@color/black"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/btopc2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btopc1"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor="@color/black"
+        app:cornerRadius="25dp"
+        android:textColor="@color/black"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/btopc3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btopc2"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor="@color/black"
+        app:cornerRadius="25dp"
+        android:textColor="@color/black"
+        android:text=""/>
 
 </RelativeLayout>

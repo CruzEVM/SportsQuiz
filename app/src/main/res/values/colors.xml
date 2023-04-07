@@ -15,4 +15,11 @@
     <color name="beisbol">#0DAEB9</color>
     <color name="f1">#03838C</color>
     <color name="basquetbol">#03838C</color>
+    <color name="correcto">#00C100</color>
+    <color name="incorrecto">#CC0107</color>
+    <color name="background">#f2f0f4</color>
+    <color name="card_background">#ffff</color>
+    <color name="green">#37cb95</color>
+    <color name="red">#de3c63</color>
+
 </resources>

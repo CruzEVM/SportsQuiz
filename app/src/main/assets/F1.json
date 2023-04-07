@@ -1,0 +1,83 @@
+{
+  "F1": [
+    {
+      "question": "¿Cual es el pais del origen del Futbol?",
+      "answer1": "A) Brazil",
+      "answer2": "B) Alemania",
+      "answer3": "C) Inglaterra",
+      "answer4": "D) Mexico",
+      "correct": "C) Inglaterra"
+    },
+    {
+      "question": "¿Miroslav Klose es el máximo goleador de la historia de los Mundiales pero... ¿con cuántos tantos?",
+      "answer1": "A) 16",
+      "answer2": "B) 15",
+      "answer3": "C) 14",
+      "answer4": "D) 17",
+      "correct": "A) 16"
+    },
+    {
+      "question": "¿Qué equipo sudamericano tiene más Copas Libertadores en su palmarés?",
+      "answer1": "A) Peñarol",
+      "answer2": "B) Boca Juniors",
+      "answer3": "C) Estudiantes",
+      "answer4": "D) Independiente",
+      "correct": "D) Independiente"
+    },
+    {
+      "question": "¿Cuántos Mundiales suman entre Brasil, Italia y Alemania?",
+      "answer1": "A) Doce",
+      "answer2": "B) Once",
+      "answer3": "C) Catorce",
+      "answer4": "D) Trece",
+      "correct": "D) Trece"
+    }, {
+      "question": "¿Maximo ganador de la UEFA Champions League?",
+      "answer1": "A) FC Barcelona",
+      "answer2": "B) FC Bayer Muchien",
+      "answer3": "C) Real Madrid",
+      "answer4": "D) Manchester United ",
+      "correct": "C) Real Madrid"
+    },
+    {
+      "question": "¿Maximo ganador del balon de oro?",
+      "answer1": "A) Messi",
+      "answer2": "B) Cristiano Ronaldo",
+      "answer3": "C) Neymar Jr",
+      "answer4": "D) Maradona",
+      "correct": "A) Messi"
+    },
+    {
+      "question": "¿Maximo goleador en la historia del futbol?",
+      "answer1": "A) Messi",
+      "answer2": "B) Cristiano Ronaldo",
+      "answer3": "C) Pele",
+      "answer4": "D) Maradona",
+      "correct": "B) Cristiano Ronaldo"
+    },
+    {
+      "question": "¿Quién es el jugador con más Mundiales de fútbol ganados?",
+      "answer1": "A) Messi",
+      "answer2": "B) Cristiano Ronaldo",
+      "answer3": "C) Pele",
+      "answer4": "D) Maradona",
+      "correct": "C) Pele"
+    },
+    {
+      "question": "¿Seleccion con mas participaciones en mundiales?",
+      "answer1": "A) Alemania",
+      "answer2": "B) Inglaterra",
+      "answer3": "C) Brazil",
+      "answer4": "D) Mexico",
+      "correct": "C) Brazil"
+    },
+    {
+      "question": "Diego Maradona anotó un gol con la mano, es conocido como “la mano de Dios”. ¿Contra qué equipo marcó ese famoso tanto?",
+      "answer1": "A) Alemania",
+      "answer2": "B) Inglaterra",
+      "answer3": "C) Brazil",
+      "answer4": "D) Italia",
+      "correct": "B) Inglaterra"
+    }
+  ]
+}
