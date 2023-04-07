@@ -1,75 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".beisbol"
+    android:background="@color/white"
     android:orientation="vertical"
-    android:background="@color/white">
+    tools:context=".beisbol">
 
-    <TextView
-        android:id="@+id/header_title"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:elevation="0dp"
+        android:gravity="center"
+        android:layout_gravity="center"
         android:background="@color/beisbol"
-        android:text="Beisbol"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="50dp"
-        android:textStyle="bold"/>
-    <TextView
-        android:id="@+id/tvpregunta"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <com.google.android.material.appbar.MaterialToolbar
+            app:titleCentered="true"
+            app:title="BEISBOL"
+            app:titleTextColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/TestCard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/header_title"
-        android:layout_marginTop="100dp"
-        android:text="¿MEJOR JUGADOR DEL FUTBOL CLUB BARCELONA?"
-        android:textColor="@color/black"
-        android:textAlignment="center"
-        android:textSize="30dp"
-        android:textStyle="bold"/>
+        android:layout_below="@+id/appbar"
+        android:layout_marginTop="50dp">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            >
+            <TextView
+                android:textSize="20sp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:padding="25dp"
+                android:gravity="center"
+                android:id="@+id/quizText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
 
-    <Button
-        android:id="@+id/btopc1"
+    <com.google.android.material.card.MaterialCardView
+        style="@style/TestCard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/tvpregunta"
-        android:layout_marginTop="100dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        style="?attr/materialButtonOutlinedStyle"
-        app:strokeColor="@color/black"
-        app:cornerRadius="25dp"
-        android:textColor="@color/black"
-        android:text=""/>
+        android:layout_below="@+id/quizText"
+        android:layout_marginTop="50dp">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="20sp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:padding="15dp"
+                android:gravity="center_vertical"
+                android:id="@+id/aanswer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
 
-    <Button
-        android:id="@+id/btopc2"
+    <com.google.android.material.card.MaterialCardView
+        style="@style/TestCard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btopc1"
-        android:layout_marginTop="50dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        style="?attr/materialButtonOutlinedStyle"
-        app:strokeColor="@color/black"
-        app:cornerRadius="25dp"
-        android:textColor="@color/black"
-        android:text=""/>
+        android:layout_below="@+id/aanswer"
+        android:layout_marginTop="25dp">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="20sp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:padding="15dp"
+                android:gravity="center_vertical"
+                android:id="@+id/banswer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
 
-    <Button
-        android:id="@+id/btopc3"
+    <com.google.android.material.card.MaterialCardView
+        style="@style/TestCard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btopc2"
-        android:layout_marginTop="50dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        style="?attr/materialButtonOutlinedStyle"
-        app:strokeColor="@color/black"
-        app:cornerRadius="25dp"
-        android:textColor="@color/black"
-        android:text=""/>
+        android:layout_below="@+id/banswer"
+        android:layout_marginTop="25dp">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="20sp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:padding="15dp"
+                android:gravity="center_vertical"
+                android:id="@+id/canswer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
 
-</RelativeLayout>
+    <com.google.android.material.card.MaterialCardView
+        style="@style/TestCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/canswer"
+        android:layout_marginTop="25dp">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="20sp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:padding="15dp"
+                android:gravity="center_vertical"
+                android:id="@+id/danswer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
