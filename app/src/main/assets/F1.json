@@ -1,83 +1,83 @@
 {
   "F1": [
     {
-      "question": "¿Cual es el pais del origen del Futbol?",
-      "answer1": "A) Brazil",
-      "answer2": "B) Alemania",
-      "answer3": "C) Inglaterra",
-      "answer4": "D) Mexico",
-      "correct": "C) Inglaterra"
+      "question": "¿Único piloto de la historia con la Triple Corona (ganador en Mónaco, Indianápolis y Le Mans)?",
+      "answer1": "A) Fernando Alonso",
+      "answer2": "B) Graham Hill",
+      "answer3": "C) Juan Pablo Montoya",
+      "answer4": "D) Bruce Mclaren",
+      "correct": "B) Graham Hill"
     },
     {
-      "question": "¿Miroslav Klose es el máximo goleador de la historia de los Mundiales pero... ¿con cuántos tantos?",
-      "answer1": "A) 16",
-      "answer2": "B) 15",
-      "answer3": "C) 14",
-      "answer4": "D) 17",
-      "correct": "A) 16"
+      "question": "¿Quien fuel el primer campeon de la formula 1?",
+      "answer1": "A) Farina",
+      "answer2": "B) Juan Manuel Fangio",
+      "answer3": "C) Jemin Clark",
+      "answer4": "D) Enzo Ferrari",
+      "correct": "A) Farina"
     },
     {
-      "question": "¿Qué equipo sudamericano tiene más Copas Libertadores en su palmarés?",
-      "answer1": "A) Peñarol",
-      "answer2": "B) Boca Juniors",
-      "answer3": "C) Estudiantes",
-      "answer4": "D) Independiente",
-      "correct": "D) Independiente"
+      "question": "¿Que escuderia ha participado en todas las temporadas de la formula 1\n?",
+      "answer1": "A) Ferrari",
+      "answer2": "B) Mclaren",
+      "answer3": "C) Lotus",
+      "answer4": "D) Williams",
+      "correct": "A) Ferrari"
     },
     {
-      "question": "¿Cuántos Mundiales suman entre Brasil, Italia y Alemania?",
-      "answer1": "A) Doce",
-      "answer2": "B) Once",
-      "answer3": "C) Catorce",
-      "answer4": "D) Trece",
-      "correct": "D) Trece"
+      "question": "¿El campeón más joven ha sido ?",
+      "answer1": "A) Fernando Alonso",
+      "answer2": "B) Max Verstapen",
+      "answer3": "C) Sebastian Vetel",
+      "answer4": "D) Lewis Hamilton",
+      "correct": "C) Sebastian Vetel"
     }, {
-      "question": "¿Maximo ganador de la UEFA Champions League?",
-      "answer1": "A) FC Barcelona",
-      "answer2": "B) FC Bayer Muchien",
-      "answer3": "C) Real Madrid",
-      "answer4": "D) Manchester United ",
-      "correct": "C) Real Madrid"
+      "question": "¿El campeon mas viejo?",
+      "answer1": "A) Farina",
+      "answer2": "B) Juan Manuel Fangio",
+      "answer3": "C) Jemin Clark",
+      "answer4": "D) Enzo Ferrari",
+      "correct": "B) Juan Manuel Fangio"
     },
     {
-      "question": "¿Maximo ganador del balon de oro?",
-      "answer1": "A) Messi",
-      "answer2": "B) Cristiano Ronaldo",
-      "answer3": "C) Neymar Jr",
-      "answer4": "D) Maradona",
-      "correct": "A) Messi"
+      "question": "¿¿Cuál es el circuito que más grandes premios de F1 ha albergado?\n?",
+      "answer1": "A) Monaco",
+      "answer2": "B) Silverstone",
+      "answer3": "C) San Marino",
+      "answer4": "D) Monza",
+      "correct": "D) Monza"
     },
     {
-      "question": "¿Maximo goleador en la historia del futbol?",
-      "answer1": "A) Messi",
-      "answer2": "B) Cristiano Ronaldo",
-      "answer3": "C) Pele",
-      "answer4": "D) Maradona",
-      "correct": "B) Cristiano Ronaldo"
+      "question": "¿Quien es el piloto con mas victorias?",
+      "answer1": "A) Lewis Hamilton",
+      "answer2": "B) Alain Prost",
+      "answer3": "C) Sebastian Vettel",
+      "answer4": "D) Michael Schumacher",
+      "correct": "A) Lewis Hamilton"
     },
     {
-      "question": "¿Quién es el jugador con más Mundiales de fútbol ganados?",
-      "answer1": "A) Messi",
-      "answer2": "B) Cristiano Ronaldo",
-      "answer3": "C) Pele",
-      "answer4": "D) Maradona",
-      "correct": "C) Pele"
+      "question": "¿Quien es el piloto con mas poles?",
+      "answer1": "A) Lewis Hamilton",
+      "answer2": "B) Alain Prost",
+      "answer3": "C) Sebastian Vettel",
+      "answer4": "D) Michael Schumacher",
+      "correct": "A) Lewis Hamilton"
     },
     {
-      "question": "¿Seleccion con mas participaciones en mundiales?",
-      "answer1": "A) Alemania",
-      "answer2": "B) Inglaterra",
-      "answer3": "C) Brazil",
-      "answer4": "D) Mexico",
-      "correct": "C) Brazil"
+      "question": "¿Cuantas carreras gano max verstapen en 2022?",
+      "answer1": "A) 17",
+      "answer2": "B) 16",
+      "answer3": "C) 15",
+      "answer4": "D) 14",
+      "correct": "C) 15"
     },
     {
-      "question": "Diego Maradona anotó un gol con la mano, es conocido como “la mano de Dios”. ¿Contra qué equipo marcó ese famoso tanto?",
-      "answer1": "A) Alemania",
-      "answer2": "B) Inglaterra",
-      "answer3": "C) Brazil",
-      "answer4": "D) Italia",
-      "correct": "B) Inglaterra"
+      "question": "¿Quien es el que mas carreras ha ganado en una sola temporada?",
+      "answer1": "A) Lewis Hamilton",
+      "answer2": "B) Max Verstapen",
+      "answer3": "C) Sebastian Vettel",
+      "answer4": "D) Michael Schumacher",
+      "correct": "B) Max Verstapen"
     }
   ]
 }

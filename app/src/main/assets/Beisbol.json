@@ -1,83 +1,83 @@
 {
   "Besibol": [
     {
-      "question": "¿Cual es el pais del origen del Futbol?",
-      "answer1": "A) Brazil",
-      "answer2": "B) Alemania",
-      "answer3": "C) Inglaterra",
-      "answer4": "D) Mexico",
-      "correct": "C) Inglaterra"
+      "question": "¿Quién fue el primer jugador afroamericano en jugar béisbol profesional?",
+      "answer1": "A) Leroy Robert Page",
+      "answer2": "B) Jackie Robinson",
+      "answer3": "C) Willie Mays",
+      "answer4": "D) Moses Fleetwood Walker",
+      "correct": "D) Moses Fleetwood Walker"
     },
     {
-      "question": "¿Miroslav Klose es el máximo goleador de la historia de los Mundiales pero... ¿con cuántos tantos?",
-      "answer1": "A) 16",
-      "answer2": "B) 15",
-      "answer3": "C) 14",
-      "answer4": "D) 17",
-      "correct": "A) 16"
+      "question": "¿En qué estado de EE. UU. surgió el primer equipo profesional de béisbol?",
+      "answer1": "A) Texas",
+      "answer2": "B)  Florida",
+      "answer3": "C)  Nueva York",
+      "answer4": "D)  California",
+      "correct": "C)  Nueva York"
     },
     {
-      "question": "¿Qué equipo sudamericano tiene más Copas Libertadores en su palmarés?",
-      "answer1": "A) Peñarol",
-      "answer2": "B) Boca Juniors",
-      "answer3": "C) Estudiantes",
-      "answer4": "D) Independiente",
-      "correct": "D) Independiente"
+      "question": "¿Quién fue el primer jugador latino en jugar en las Grandes Ligas?",
+      "answer1": "A) Lou Castro",
+      "answer2": "B) Armando Marsans",
+      "answer3": "C) Rafael Almeida",
+      "answer4": "D) Alejandro Carrasquel",
+      "correct": "A) Lou Castro"
     },
     {
-      "question": "¿Cuántos Mundiales suman entre Brasil, Italia y Alemania?",
-      "answer1": "A) Doce",
-      "answer2": "B) Once",
-      "answer3": "C) Catorce",
-      "answer4": "D) Trece",
-      "correct": "D) Trece"
+      "question": "¿Cuál es el equipo con más campeonatos de las Grandes Ligas?",
+      "answer1": "A) Cardenales de San Luis",
+      "answer2": "B) Yankees de Nueva York",
+      "answer3": "C) Dodgers de Los Ángeles",
+      "answer4": "D) Medias Rojas de Boston",
+      "correct": "B) Yankees de Nueva York"
     }, {
-      "question": "¿Maximo ganador de la UEFA Champions League?",
-      "answer1": "A) FC Barcelona",
-      "answer2": "B) FC Bayer Muchien",
-      "answer3": "C) Real Madrid",
-      "answer4": "D) Manchester United ",
-      "correct": "C) Real Madrid"
-    },
-    {
-      "question": "¿Maximo ganador del balon de oro?",
-      "answer1": "A) Messi",
-      "answer2": "B) Cristiano Ronaldo",
-      "answer3": "C) Neymar Jr",
-      "answer4": "D) Maradona",
-      "correct": "A) Messi"
-    },
-    {
-      "question": "¿Maximo goleador en la historia del futbol?",
-      "answer1": "A) Messi",
-      "answer2": "B) Cristiano Ronaldo",
-      "answer3": "C) Pele",
-      "answer4": "D) Maradona",
-      "correct": "B) Cristiano Ronaldo"
-    },
-    {
-      "question": "¿Quién es el jugador con más Mundiales de fútbol ganados?",
-      "answer1": "A) Messi",
-      "answer2": "B) Cristiano Ronaldo",
-      "answer3": "C) Pele",
-      "answer4": "D) Maradona",
-      "correct": "C) Pele"
-    },
-    {
-      "question": "¿Seleccion con mas participaciones en mundiales?",
-      "answer1": "A) Alemania",
+      "question": "¿En qué país surgió el béisbol moderno?",
+      "answer1": "A) Estados Unidos",
       "answer2": "B) Inglaterra",
-      "answer3": "C) Brazil",
-      "answer4": "D) Mexico",
-      "correct": "C) Brazil"
+      "answer3": "C) República Dominicana",
+      "answer4": "D) Canadá",
+      "correct": "A) Estados Unidos"
     },
     {
-      "question": "Diego Maradona anotó un gol con la mano, es conocido como “la mano de Dios”. ¿Contra qué equipo marcó ese famoso tanto?",
-      "answer1": "A) Alemania",
-      "answer2": "B) Inglaterra",
-      "answer3": "C) Brazil",
-      "answer4": "D) Italia",
-      "correct": "B) Inglaterra"
+      "question": "¿Cuál es el jugador con más hits en la historia de las Grandes Ligas?",
+      "answer1": "A) Ty Cobb",
+      "answer2": "B) Pete Rose",
+      "answer3": "C) Hank Aaron",
+      "answer4": "D) Derek Jeter",
+      "correct": "B) Pete Rose"
+    },
+    {
+      "question": "¿Quién es el jugador con más jonrones en la historia de las Grandes Ligasl?",
+      "answer1": "A) Barry Bonds",
+      "answer2": "B) Babe Ruth",
+      "answer3": "C) Mark McGwire",
+      "answer4": "D) Hank Aaron",
+      "correct": "A) Barry Bonds"
+    },
+    {
+      "question": "¿Cuántos jugadores de un mismo equipo pueden estar en el campo al mismo tiempo?",
+      "answer1": "A) Siete",
+      "answer2": "B) Diez",
+      "answer3": "C) Nueve",
+      "answer4": "D) Ocho",
+      "correct": "C) Nueve"
+    },
+    {
+      "question": "¿Cuál es el estadio en uso más antiguo de las Grandes Ligas?",
+      "answer1": "A) Dodger Stadium (Los Ángeles)",
+      "answer2": "B) Fenway Park (Boston)",
+      "answer3": "C) Wrigley Field (Chicago)",
+      "answer4": "D) Yankee Stadium (Nueva York)",
+      "correct": "B)  Fenway Park (Boston)"
+    },
+    {
+      "question": "Cuál es el único equipo que no ha jugado una Serie Mundial?",
+      "answer1": "A) Cerveceros de Milwaukee",
+      "answer2": "B) Rayas de Tampa Bay",
+      "answer3": "C) Rockies de Colorado",
+      "answer4": "D) Marineros de Seattle",
+      "correct": "D) Marineros de Seattle"
     }
   ]
 }
