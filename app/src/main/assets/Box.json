@@ -1,83 +1,84 @@
 {
   "Box": [
     {
-      "question": "¿Cual es el pais del origen del Futbol?",
-      "answer1": "A) Brazil",
-      "answer2": "B) Alemania",
-      "answer3": "C) Inglaterra",
-      "answer4": "D) Mexico",
-      "correct": "C) Inglaterra"
+      "question": "¿Quién es considerado el mejor boxeador libra por libra de todos los tiempos?",
+      "answer1": "A) Muhammad Ali",
+      "answer2": "B) Mike Tyson",
+      "answer3": "C) Sugar Ray Robinson",
+      "answer4": "D) Floyd Mayweather Jr.",
+      "correct": "C) Sugar Ray Robinson"
     },
     {
-      "question": "¿Miroslav Klose es el máximo goleador de la historia de los Mundiales pero... ¿con cuántos tantos?",
-      "answer1": "A) 16",
-      "answer2": "B) 15",
-      "answer3": "C) 14",
-      "answer4": "D) 17",
-      "correct": "A) 16"
+      "question": "¿En qué peso pelea el boxeador mexicano Saúl 'Canelo' Álvarez?",
+      "answer1": "A) Peso pesado",
+      "answer2": "B) Peso welter",
+      "answer3": "C) Peso mediano",
+      "answer4": "D) Peso pluma",
+      "correct": "C) Peso mediano"
     },
     {
-      "question": "¿Qué equipo sudamericano tiene más Copas Libertadores en su palmarés?",
-      "answer1": "A) Peñarol",
-      "answer2": "B) Boca Juniors",
-      "answer3": "C) Estudiantes",
-      "answer4": "D) Independiente",
-      "correct": "D) Independiente"
+      "question": "¿Quién ganó la famosa pelea 'Rumble in the Jungle' en 1974?",
+      "answer1": "A) Mike Tyson",
+      "answer2": "B) Muhammad Ali",
+      "answer3": "C) George Foreman",
+      "answer4": "D) Joe Frazier",
+      "correct": "B) Muhammad Ali"
     },
     {
-      "question": "¿Cuántos Mundiales suman entre Brasil, Italia y Alemania?",
-      "answer1": "A) Doce",
-      "answer2": "B) Once",
-      "answer3": "C) Catorce",
-      "answer4": "D) Trece",
-      "correct": "D) Trece"
-    }, {
-      "question": "¿Maximo ganador de la UEFA Champions League?",
-      "answer1": "A) FC Barcelona",
-      "answer2": "B) FC Bayer Muchien",
-      "answer3": "C) Real Madrid",
-      "answer4": "D) Manchester United ",
-      "correct": "C) Real Madrid"
+      "question": "¿Quién es el actual campeón del mundo de peso pesado?",
+      "answer1": "A) Tyson Fury",
+      "answer2": "B) Deontay Wilder",
+      "answer3": "C) Anthony Joshua",
+      "answer4": "D) Andy Ruiz Jr.",
+      "correct": "A) Tyson Fury"
     },
     {
-      "question": "¿Maximo ganador del balon de oro?",
-      "answer1": "A) Messi",
-      "answer2": "B) Cristiano Ronaldo",
-      "answer3": "C) Neymar Jr",
-      "answer4": "D) Maradona",
-      "correct": "A) Messi"
+      "question": "¿Cuál es el récord de peleas invictas de Floyd Mayweather Jr.?",
+      "answer1": "A) 49-0",
+      "answer2": "B) 50-0",
+      "answer3": "C) 51-0",
+      "answer4": "D) 52-0",
+      "correct": "B) 50-0"
     },
     {
-      "question": "¿Maximo goleador en la historia del futbol?",
-      "answer1": "A) Messi",
-      "answer2": "B) Cristiano Ronaldo",
-      "answer3": "C) Pele",
-      "answer4": "D) Maradona",
-      "correct": "B) Cristiano Ronaldo"
+      "question": "¿En qué país nació el legendario boxeador Manny Pacquiao?",
+      "answer1": "A) México",
+      "answer2": "B) Filipinas",
+      "answer3": "C) Estados Unidos",
+      "answer4": "D) Puerto Rico",
+      "correct": "B) Filipinas"
     },
     {
-      "question": "¿Quién es el jugador con más Mundiales de fútbol ganados?",
-      "answer1": "A) Messi",
-      "answer2": "B) Cristiano Ronaldo",
-      "answer3": "C) Pele",
-      "answer4": "D) Maradona",
-      "correct": "C) Pele"
+      "question": "¿Cuál es el apodo de Julio César Chávez, uno de los más grandes boxeadores mexicanos de todos los tiempos?",
+      "answer1": "A) El Gran Campeón",
+      "answer2": "B) El Guerrero Azteca",
+      "answer3": "C) El César del Boxeo",
+      "answer4": "D) El Poderoso Chávez",
+      "correct": "C) El César del Boxeo"
     },
     {
-      "question": "¿Seleccion con mas participaciones en mundiales?",
-      "answer1": "A) Alemania",
-      "answer2": "B) Inglaterra",
-      "answer3": "C) Brazil",
-      "answer4": "D) Mexico",
-      "correct": "C) Brazil"
+      "question": "¿Qué boxeador es conocido como 'Iron Mike'?",
+      "answer1": "A) Mike Tyson",
+      "answer2": "B) Floyd Mayweather Jr.",
+      "answer3": "C) Muhammad Ali",
+      "answer4": "D) George Foreman",
+      "correct": "A) Mike Tyson"
     },
     {
-      "question": "Diego Maradona anotó un gol con la mano, es conocido como “la mano de Dios”. ¿Contra qué equipo marcó ese famoso tanto?",
-      "answer1": "A) Alemania",
-      "answer2": "B) Inglaterra",
-      "answer3": "C) Brazil",
-      "answer4": "D) Italia",
-      "correct": "B) Inglaterra"
+      "question": "¿Quién fue el primer boxeador en ganar títulos mundiales en ocho categorías de peso diferentes?",
+      "answer1": "A) Manny Pacquiao",
+      "answer2": "B) Oscar De La Hoya",
+      "answer3": "C) Floyd Mayweather Jr.",
+      "answer4": "D) Roy Jones Jr.",
+      "correct": "A) Manny Pacquiao"
+    },
+    {
+      "question": "¿Qué leyenda del boxeo se retiró invicto con un récord de 49-0?",
+      "answer1": "A) Sugar Ray Leonard",
+      "answer2": "B) Muhammad Ali",
+      "answer3": "C) Rocky Marciano",
+      "answer4": "D) Mike Tyson",
+      "correct": "C) Rocky Marciano"
     }
   ]
 }

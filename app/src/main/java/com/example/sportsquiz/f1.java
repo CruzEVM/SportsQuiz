@@ -68,7 +68,7 @@ public class f1 extends AppCompatActivity {
                             aans.setBackgroundResource(R.color.white);
                             aans.setTextColor(getResources().getColor(R.color.black));
                         }
-                    }, 1500);
+                    }, 1000);
                 } else {
                     Intent intent = new Intent(f1.this, Resultados.class);
                     intent.putExtra("correct", correct);
@@ -102,7 +102,7 @@ public class f1 extends AppCompatActivity {
                             bans.setBackgroundResource(R.color.white);
                             bans.setTextColor(getResources().getColor(R.color.black));
                         }
-                    }, 1500);
+                    }, 1000);
                 } else {
                     Intent intent = new Intent(f1.this, Resultados.class);
                     intent.putExtra("correct", correct);
@@ -136,7 +136,7 @@ public class f1 extends AppCompatActivity {
                             cans.setBackgroundResource(R.color.white);
                             cans.setTextColor(getResources().getColor(R.color.black));
                         }
-                    }, 1500);
+                    }, 1000);
                 } else {
                     Intent intent = new Intent(f1.this, Resultados.class);
                     intent.putExtra("correct", correct);
@@ -170,7 +170,7 @@ public class f1 extends AppCompatActivity {
                             dans.setBackgroundResource(R.color.white);
                             dans.setTextColor(getResources().getColor(R.color.black));
                         }
-                    }, 1500);
+                    }, 1000);
                 } else {
                     Intent intent = new Intent(f1.this, Resultados.class);
                     intent.putExtra("correct", correct);
@@ -231,7 +231,7 @@ public class f1 extends AppCompatActivity {
     public void onBackPressed() {
         MaterialAlertDialogBuilder materialAlertDialogBuilder = new MaterialAlertDialogBuilder(f1.this);
         materialAlertDialogBuilder.setTitle(R.string.app_name);
-        materialAlertDialogBuilder.setMessage("Are you sure want to exit the quiz?");
+        materialAlertDialogBuilder.setMessage("¿Seguro que quieres salir de la cuestionario?");
         materialAlertDialogBuilder.setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
@@ -241,7 +241,6 @@ public class f1 extends AppCompatActivity {
         materialAlertDialogBuilder.setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                startActivity(new Intent(f1.this, Menu.class));
                 finish();
             }
         });

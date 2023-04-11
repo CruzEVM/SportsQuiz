@@ -1,83 +1,84 @@
 {
   "Basquetbol": [
     {
-      "question": "¿Cual es el pais del origen del Futbol?",
-      "answer1": "A) Brazil",
-      "answer2": "B) Alemania",
-      "answer3": "C) Inglaterra",
-      "answer4": "D) Mexico",
-      "correct": "C) Inglaterra"
+      "question": "¿Quién es el jugador con más anillos de campeonato en la historia de la NBA?",
+      "answer1": "A) Kobe Bryant",
+      "answer2": "B) Michael Jordan",
+      "answer3": "C) Bill Russell",
+      "answer4": "D) LeBron James",
+      "correct": "C) Bill Russell"
     },
     {
-      "question": "¿Miroslav Klose es el máximo goleador de la historia de los Mundiales pero... ¿con cuántos tantos?",
-      "answer1": "A) 16",
-      "answer2": "B) 15",
-      "answer3": "C) 14",
-      "answer4": "D) 17",
-      "correct": "A) 16"
+      "question": "¿Qué equipo tiene el récord de más victorias en una temporada regular de la NBA?",
+      "answer1": "A) Chicago Bulls",
+      "answer2": "B) Golden State Warriors",
+      "answer3": "C) Los Angeles Lakers",
+      "answer4": "D) Boston Celtics",
+      "correct": "B) Golden State Warriors"
     },
     {
-      "question": "¿Qué equipo sudamericano tiene más Copas Libertadores en su palmarés?",
-      "answer1": "A) Peñarol",
-      "answer2": "B) Boca Juniors",
-      "answer3": "C) Estudiantes",
-      "answer4": "D) Independiente",
-      "correct": "D) Independiente"
+      "question": "¿Cuál es el jugador con más triples-dobles en la historia de la NBA?",
+      "answer1": "A) Magic Johnson",
+      "answer2": "B) Russell Westbrook",
+      "answer3": "C) Oscar Robertson",
+      "answer4": "D) LeBron James",
+      "correct": "B) Russell Westbrook"
     },
     {
-      "question": "¿Cuántos Mundiales suman entre Brasil, Italia y Alemania?",
-      "answer1": "A) Doce",
-      "answer2": "B) Once",
-      "answer3": "C) Catorce",
-      "answer4": "D) Trece",
-      "correct": "D) Trece"
-    }, {
-      "question": "¿Maximo ganador de la UEFA Champions League?",
-      "answer1": "A) FC Barcelona",
-      "answer2": "B) FC Bayer Muchien",
-      "answer3": "C) Real Madrid",
-      "answer4": "D) Manchester United ",
-      "correct": "C) Real Madrid"
+      "question": "¿Qué equipo ganó el primer campeonato de la NBA en 1947?",
+      "answer1": "A) Boston Celtics",
+      "answer2": "B) Los Angeles Lakers",
+      "answer3": "C) New York Knicks",
+      "answer4": "D) Philadelphia Warriors",
+      "correct": "D) Philadelphia Warriors"
     },
     {
-      "question": "¿Maximo ganador del balon de oro?",
-      "answer1": "A) Messi",
-      "answer2": "B) Cristiano Ronaldo",
-      "answer3": "C) Neymar Jr",
-      "answer4": "D) Maradona",
-      "correct": "A) Messi"
+      "question": "¿Quién es el jugador con más puntos anotados en la historia de la NBA?",
+      "answer1": "A) LeBron James",
+      "answer2": "B) Kobe Bryant",
+      "answer3": "C) Kareem Abdul-Jabbar",
+      "answer4": "D) Michael Jordan",
+      "correct": "C) Kareem Abdul-Jabbar"
     },
     {
-      "question": "¿Maximo goleador en la historia del futbol?",
-      "answer1": "A) Messi",
-      "answer2": "B) Cristiano Ronaldo",
-      "answer3": "C) Pele",
-      "answer4": "D) Maradona",
-      "correct": "B) Cristiano Ronaldo"
+      "question": "¿Quién fue el MVP de las Finales de la NBA en 2020?",
+      "answer1": "A) LeBron James",
+      "answer2": "B) Anthony Davis",
+      "answer3": "C) Jimmy Butler",
+      "answer4": "D) Rajon Rondo",
+      "correct": "A) LeBron James"
     },
     {
-      "question": "¿Quién es el jugador con más Mundiales de fútbol ganados?",
-      "answer1": "A) Messi",
-      "answer2": "B) Cristiano Ronaldo",
-      "answer3": "C) Pele",
-      "answer4": "D) Maradona",
-      "correct": "C) Pele"
+      "question": "¿Cuál es el equipo con más títulos de la NBA en la historia?",
+      "answer1": "A) Boston Celtics",
+      "answer2": "B) Los Angeles Lakers",
+      "answer3": "C) Chicago Bulls",
+      "answer4": "D) Golden State Warriors",
+      "correct": "A) Boston Celtics"
     },
     {
-      "question": "¿Seleccion con mas participaciones en mundiales?",
-      "answer1": "A) Alemania",
-      "answer2": "B) Inglaterra",
-      "answer3": "C) Brazil",
-      "answer4": "D) Mexico",
-      "correct": "C) Brazil"
+      "question": "¿Cuál es el jugador con más asistencias en la historia de la NBA?",
+      "answer1": "A) Jason Kidd",
+      "answer2": "B) Magic Johnson",
+      "answer3": "C) John Stockton",
+      "answer4": "D) Steve Nash",
+      "correct": "C) John Stockton"
     },
     {
-      "question": "Diego Maradona anotó un gol con la mano, es conocido como “la mano de Dios”. ¿Contra qué equipo marcó ese famoso tanto?",
-      "answer1": "A) Alemania",
-      "answer2": "B) Inglaterra",
-      "answer3": "C) Brazil",
-      "answer4": "D) Italia",
-      "correct": "B) Inglaterra"
+      "question": "¿Qué equipo ganó el primer campeonato de la NBA en la era moderna (después de la fusión ABA-NBA)?",
+      "answer1": "A) Boston Celtics",
+      "answer2": "B) Los Angeles Lakers",
+      "answer3": "C) Milwaukee Bucks",
+      "answer4": "D) Portland Trail Blazers",
+      "correct": "C) Milwaukee Bucks"
+    },
+    {
+      "question": "¿Quién es el entrenador con más campeonatos de la NBA en la historia?",
+      "answer1": "A) Phil Jackson",
+      "answer2": "B) Red Auerbach",
+      "answer3": "C) Gregg Popovich",
+      "answer4": "D) Pat Riley",
+      "correct": "A) Phil Jackson"
     }
   ]
 }

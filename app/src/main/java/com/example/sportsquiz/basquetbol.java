@@ -68,11 +68,11 @@ public class basquetbol extends AppCompatActivity {
                             aans.setBackgroundResource(R.color.white);
                             aans.setTextColor(getResources().getColor(R.color.black));
                         }
-                    }, 1500);
+                    }, 1000);
                 } else {
                     Intent intent = new Intent(basquetbol.this, Resultados.class);
-                    intent.putExtra("Correctas", correct);
-                    intent.putExtra("Incorrectas", wrong);
+                    intent.putExtra("correct", correct);
+                    intent.putExtra("wrong", wrong);
                     startActivity(intent);
                     finish();
                 }
@@ -105,8 +105,8 @@ public class basquetbol extends AppCompatActivity {
                     }, 1000);
                 } else {
                     Intent intent = new Intent(basquetbol.this, Resultados.class);
-                    intent.putExtra("Correctas", correct);
-                    intent.putExtra("Incorrectas", wrong);
+                    intent.putExtra("correct", correct);
+                    intent.putExtra("wrong", wrong);
                     startActivity(intent);
                     finish();
                 }
@@ -139,8 +139,8 @@ public class basquetbol extends AppCompatActivity {
                     }, 1000);
                 } else {
                     Intent intent = new Intent(basquetbol.this, Resultados.class);
-                    intent.putExtra("Correctas", correct);
-                    intent.putExtra("Incorrectas", wrong);
+                    intent.putExtra("correct", correct);
+                    intent.putExtra("wrong", wrong);
                     startActivity(intent);
                     finish();
                 }
@@ -173,8 +173,8 @@ public class basquetbol extends AppCompatActivity {
                     }, 1000);
                 } else {
                     Intent intent = new Intent(basquetbol.this, Resultados.class);
-                    intent.putExtra("Correctas", correct);
-                    intent.putExtra("Incorrectas", wrong);
+                    intent.putExtra("correct", correct);
+                    intent.putExtra("wrong", wrong);
                     startActivity(intent);
                     finish();
                 }
@@ -231,7 +231,7 @@ public class basquetbol extends AppCompatActivity {
     public void onBackPressed() {
         MaterialAlertDialogBuilder materialAlertDialogBuilder = new MaterialAlertDialogBuilder(basquetbol.this);
         materialAlertDialogBuilder.setTitle(R.string.app_name);
-        materialAlertDialogBuilder.setMessage("¿Seguro que quieres salir de la aplicación?");
+        materialAlertDialogBuilder.setMessage("¿Seguro que quieres salir de la cuestionario?");
         materialAlertDialogBuilder.setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
@@ -241,7 +241,6 @@ public class basquetbol extends AppCompatActivity {
         materialAlertDialogBuilder.setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                startActivity(new Intent(basquetbol.this, Menu.class));
                 finish();
             }
         });

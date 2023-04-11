@@ -1,5 +1,5 @@
 {
-  "Besibol": [
+  "Beisbol": [
     {
       "question": "¿Quién fue el primer jugador afroamericano en jugar béisbol profesional?",
       "answer1": "A) Leroy Robert Page",
@@ -11,10 +11,10 @@
     {
       "question": "¿En qué estado de EE. UU. surgió el primer equipo profesional de béisbol?",
       "answer1": "A) Texas",
-      "answer2": "B)  Florida",
-      "answer3": "C)  Nueva York",
-      "answer4": "D)  California",
-      "correct": "C)  Nueva York"
+      "answer2": "B) Florida",
+      "answer3": "C) Nueva York",
+      "answer4": "D) California",
+      "correct": "C) Nueva York"
     },
     {
       "question": "¿Quién fue el primer jugador latino en jugar en las Grandes Ligas?",
@@ -69,7 +69,7 @@
       "answer2": "B) Fenway Park (Boston)",
       "answer3": "C) Wrigley Field (Chicago)",
       "answer4": "D) Yankee Stadium (Nueva York)",
-      "correct": "B)  Fenway Park (Boston)"
+      "correct": "B) Fenway Park (Boston)"
     },
     {
       "question": "Cuál es el único equipo que no ha jugado una Serie Mundial?",

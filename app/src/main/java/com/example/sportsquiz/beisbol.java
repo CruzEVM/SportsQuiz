@@ -71,8 +71,8 @@ public class beisbol extends AppCompatActivity {
                     }, 1000);
                 } else {
                     Intent intent = new Intent(beisbol.this, Resultados.class);
-                    intent.putExtra("Correctas", correct);
-                    intent.putExtra("Incorrectas", wrong);
+                    intent.putExtra("correct", correct);
+                    intent.putExtra("wrong", wrong);
                     startActivity(intent);
                     finish();
                 }
@@ -105,8 +105,8 @@ public class beisbol extends AppCompatActivity {
                     }, 1000);
                 } else {
                     Intent intent = new Intent(beisbol.this, Resultados.class);
-                    intent.putExtra("Correctas", correct);
-                    intent.putExtra("Incorrectas", wrong);
+                    intent.putExtra("correct", correct);
+                    intent.putExtra("wrong", wrong);
                     startActivity(intent);
                     finish();
                 }
@@ -139,8 +139,8 @@ public class beisbol extends AppCompatActivity {
                     }, 1000);
                 } else {
                     Intent intent = new Intent(beisbol.this, Resultados.class);
-                    intent.putExtra("Correctas", correct);
-                    intent.putExtra("Incorrectas", wrong);
+                    intent.putExtra("correct", correct);
+                    intent.putExtra("wrong", wrong);
                     startActivity(intent);
                     finish();
                 }
@@ -173,8 +173,8 @@ public class beisbol extends AppCompatActivity {
                     }, 1000);
                 } else {
                     Intent intent = new Intent(beisbol.this, Resultados.class);
-                    intent.putExtra("Correctas", correct);
-                    intent.putExtra("Incorrectas", wrong);
+                    intent.putExtra("correct", correct);
+                    intent.putExtra("wrong", wrong);
                     startActivity(intent);
                     finish();
                 }
@@ -194,7 +194,7 @@ public class beisbol extends AppCompatActivity {
         String jsonquiz = loadJsonFromAsset("Beisbol.json");
         try {
             JSONObject jsonObject = new JSONObject(jsonquiz);
-            JSONArray questions = jsonObject.getJSONArray("beisbol");
+            JSONArray questions = jsonObject.getJSONArray("Beisbol");
             for (int i = 0; i < questions.length(); i++) {
                 JSONObject question = questions.getJSONObject(i);
 
@@ -231,7 +231,7 @@ public class beisbol extends AppCompatActivity {
     public void onBackPressed() {
         MaterialAlertDialogBuilder materialAlertDialogBuilder = new MaterialAlertDialogBuilder(beisbol.this);
         materialAlertDialogBuilder.setTitle(R.string.app_name);
-        materialAlertDialogBuilder.setMessage("¿Seguro que quieres salir de la aplicación?");
+        materialAlertDialogBuilder.setMessage("¿Seguro que quieres salir de la cuestionario?");
         materialAlertDialogBuilder.setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
@@ -241,7 +241,6 @@ public class beisbol extends AppCompatActivity {
         materialAlertDialogBuilder.setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                startActivity(new Intent(beisbol.this, Menu.class));
                 finish();
             }
         });

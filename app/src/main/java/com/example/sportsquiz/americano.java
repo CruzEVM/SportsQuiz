@@ -231,7 +231,7 @@ public class americano extends AppCompatActivity {
     public void onBackPressed() {
         MaterialAlertDialogBuilder materialAlertDialogBuilder = new MaterialAlertDialogBuilder(americano.this);
         materialAlertDialogBuilder.setTitle(R.string.app_name);
-        materialAlertDialogBuilder.setMessage("¿Seguro que quieres salir de la aplicación?");
+        materialAlertDialogBuilder.setMessage("¿Seguro que quieres salir de la cuestionario?");
         materialAlertDialogBuilder.setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
@@ -241,7 +241,6 @@ public class americano extends AppCompatActivity {
         materialAlertDialogBuilder.setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                startActivity(new Intent(americano.this, Menu.class));
                 finish();
             }
         });
