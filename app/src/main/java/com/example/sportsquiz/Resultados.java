@@ -28,8 +28,8 @@ public class Resultados extends AppCompatActivity {
         resultscore = findViewById(R.id.resultScore);
         resultImage = findViewById(R.id.resultImage);
 
-        int correct = getIntent().getIntExtra("correct", 0);
-        int wrong = getIntent().getIntExtra("wrong", 0);
+        int correct = getIntent().getIntExtra("Correctas", 0);
+        int wrong = getIntent().getIntExtra("Incorrectas", 0);
         int score = correct * 10;
 
         correctt.setText("" + correct);

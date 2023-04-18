@@ -74,4 +74,9 @@ public class Menu extends AppCompatActivity {
             }
         });
     }
+    @Override
+    public void onBackPressed() {
+        startActivity(new Intent(Menu.this, Welcome.class));
+        finish();
+    }
 }
