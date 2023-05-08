@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/americano"
     android:orientation="vertical"
     tools:context=".americano">
 
@@ -16,10 +16,12 @@
         android:background="@color/americano"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize">
-        <com.google.android.material.appbar.MaterialToolbar
-            app:titleCentered="true"
-            app:title="FUTBOL AMERICANO"
-            app:titleTextColor="@color/white"
+        <TextView
+            android:text="Americano"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="50dp"
+            android:textStyle="bold"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
     </com.google.android.material.appbar.AppBarLayout>
@@ -29,7 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/appbar"
-        android:layout_marginTop="50dp">
+        android:layout_marginTop="100dp">
         <LinearLayout
             android:layout_gravity="center"
             android:orientation="horizontal"
@@ -42,6 +44,7 @@
                 android:textColor="@color/black"
                 android:padding="25dp"
                 android:gravity="center"
+                android:textStyle="normal"
                 android:id="@+id/quizText"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"/>

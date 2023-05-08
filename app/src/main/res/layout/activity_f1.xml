@@ -16,12 +16,14 @@
         android:background="@color/f1"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize">
-        <com.google.android.material.appbar.MaterialToolbar
-            app:titleCentered="true"
-            app:title="FORMULA 1"
-            app:titleTextColor="@color/white"
+        <TextView
+            android:text="Formula 1"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="50dp"
+            android:textStyle="bold"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="wrap_content"/>
     </com.google.android.material.appbar.AppBarLayout>
 
     <com.google.android.material.card.MaterialCardView
@@ -42,6 +44,7 @@
                 android:textColor="@color/black"
                 android:padding="25dp"
                 android:gravity="center"
+                android:textStyle="bold"
                 android:id="@+id/quizText"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"/>

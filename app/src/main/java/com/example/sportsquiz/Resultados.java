@@ -37,16 +37,16 @@ public class Resultados extends AppCompatActivity {
         resultscore.setText("" + score);
 
         if (correct >= 0 && correct <= 2) {
-            resultinfo.setText("You have to take the test again");
+            resultinfo.setText("Tienes que hacer la prueba de nuevo");
             resultImage.setImageResource(R.drawable.basquelbol);
         } else if (correct >= 3 && correct <= 5) {
-            resultinfo.setText("You have to try a little more");
+            resultinfo.setText("Tienes que intentarlo un poco más");
             resultImage.setImageResource(R.drawable.americano);
         } else if (correct >= 6 && correct <= 8) {
-            resultinfo.setText("You are pretty good");
+            resultinfo.setText("Eres bastante bueno");
             resultImage.setImageResource(R.drawable.f1);
         } else {
-            resultinfo.setText("You are very good congratulations");
+            resultinfo.setText("Eres muy bueno felicidades");
             resultImage.setImageResource(R.drawable.futbol);
         }
 

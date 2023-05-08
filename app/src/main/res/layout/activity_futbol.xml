@@ -16,12 +16,14 @@
         android:background="@color/futbol"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize">
-        <com.google.android.material.appbar.MaterialToolbar
-            app:titleCentered="true"
-            app:title="FUTBOL"
-            app:titleTextColor="@color/white"
+        <TextView
+            android:text="Futbol"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="50dp"
+            android:textStyle="bold"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="wrap_content"/>
     </com.google.android.material.appbar.AppBarLayout>
 
     <com.google.android.material.card.MaterialCardView
@@ -38,8 +40,8 @@
             >
             <TextView
                 android:textSize="20sp"
-                android:background="@color/white"
-                android:textColor="@color/black"
+                android:background="@color/futbol"
+                android:textColor="@color/white"
                 android:padding="25dp"
                 android:gravity="center"
                 android:id="@+id/quizText"
