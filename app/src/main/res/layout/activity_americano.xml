@@ -10,20 +10,21 @@
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbar"
-        android:elevation="0dp"
-        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
         android:layout_gravity="center"
         android:background="@color/americano"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize">
+        android:elevation="0dp"
+        android:gravity="center">
+
         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:text="Americano"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="50dp"
-            android:textStyle="bold"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:textStyle="bold" />
     </com.google.android.material.appbar.AppBarLayout>
 
     <com.google.android.material.card.MaterialCardView
@@ -32,22 +33,23 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/appbar"
         android:layout_marginTop="100dp">
+
         <LinearLayout
-            android:layout_gravity="center"
-            android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            >
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
             <TextView
-                android:textSize="20sp"
-                android:background="@color/white"
-                android:textColor="@color/black"
-                android:padding="25dp"
-                android:gravity="center"
-                android:textStyle="normal"
                 android:id="@+id/quizText"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="center"
+                android:padding="25dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="normal" />
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
@@ -57,19 +59,21 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/quizText"
         android:layout_marginTop="50dp">
+
         <LinearLayout
-            android:layout_gravity="center"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
             <TextView
-                android:textSize="20sp"
-                android:background="@color/white"
-                android:textColor="@color/black"
-                android:padding="15dp"
-                android:gravity="center_vertical"
                 android:id="@+id/aanswer"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
@@ -79,19 +83,21 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/aanswer"
         android:layout_marginTop="25dp">
+
         <LinearLayout
-            android:layout_gravity="center"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
             <TextView
-                android:textSize="20sp"
-                android:background="@color/white"
-                android:textColor="@color/black"
-                android:padding="15dp"
-                android:gravity="center_vertical"
                 android:id="@+id/banswer"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
@@ -101,19 +107,21 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/banswer"
         android:layout_marginTop="25dp">
+
         <LinearLayout
-            android:layout_gravity="center"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
             <TextView
-                android:textSize="20sp"
-                android:background="@color/white"
-                android:textColor="@color/black"
-                android:padding="15dp"
-                android:gravity="center_vertical"
                 android:id="@+id/canswer"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
@@ -123,19 +131,21 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/canswer"
         android:layout_marginTop="25dp">
+
         <LinearLayout
-            android:layout_gravity="center"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
             <TextView
-                android:textSize="20sp"
-                android:background="@color/white"
-                android:textColor="@color/black"
-                android:padding="15dp"
-                android:gravity="center_vertical"
                 android:id="@+id/danswer"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 

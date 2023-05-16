@@ -25,7 +25,7 @@ public class Welcome extends AppCompatActivity {
 
         instruccciones = findViewById(R.id.Instrucciones);
         instruccciones.setOnClickListener(view -> {
-            Intent intent = new Intent(Welcome.this, Slider.class);
+            Intent intent = new Intent(Welcome.this, Instrucciones.class);
             startActivity(intent);
         });
     }
