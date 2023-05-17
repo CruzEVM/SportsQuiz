@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SportsQuiz</string>
+    <string name="todo">TODO</string>
+    <string name="selecciona_el_deporte_del_quiz_que_deseas_realizar">Selecciona el deporte del Quiz que deseas realizar</string>
+    <string name="atras">ATRAS</string>
+    <string name="siguiente">SIGUIENTE</string>
 </resources>

@@ -40,7 +40,8 @@
                 android:id="@+id/resultImage"
                 android:src="@drawable/f1"
                 android:layout_width="40dp"
-                android:layout_height="40dp"/>
+                android:layout_height="40dp"
+                android:contentDescription="TODO" />
             <TextView
                 android:id="@+id/resultInfo"
                 android:layout_marginTop="15dp"
@@ -83,7 +84,8 @@
                 <ImageView
                     android:src="@drawable/futbol"
                     android:layout_width="40dp"
-                    android:layout_height="40dp"/>
+                    android:layout_height="40dp"
+                    android:contentDescription="TODO" />
                 <TextView
                     android:layout_marginTop="15dp"
                     android:textColor="@color/black"
@@ -119,7 +121,8 @@
                 <ImageView
                     android:src="@drawable/basquelbol"
                     android:layout_width="40dp"
-                    android:layout_height="40dp"/>
+                    android:layout_height="40dp"
+                    android:contentDescription="TODO" />
                 <TextView
                     android:layout_marginTop="15dp"
                     android:textColor="@color/black"
